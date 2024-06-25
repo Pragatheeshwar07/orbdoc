@@ -74,22 +74,28 @@ nav {
     background-color: #3c3b9c2d;
     box-shadow: 4px 1px 10px rgba(255, 255, 255, 0.488);
     width: 30vw;
-    height: 30vw;
+    height: 36vw;
     margin-left: 18vw;
-    margin-top: 7vw;
+    margin-top: 2vw;
+    border-radius: 20px;
+    line-height: 1.5;
     #lable{
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 12vw;
         color: white;
     }
     input{
-        margin-top: 0.3vw;
+        margin-top: 0vw;
         width: 80%;
         margin-left: 2vw;
         height: 2vw;
         border-radius: 10px;
         text-align: center;
         font-size: 18px;
+    }
+    input::placeholder{
+        font-size: 15px;
+        color: rgba(108, 108, 108, 0.541);
     }
     textarea{
         margin-top: 0.3vw;
@@ -100,13 +106,6 @@ nav {
     }
 }
 
-.this-is-email{
-    margin-top: 3vw;
-}
-
-.this-is-message{
-    margin-top: 3vw;
-}
 form{
     margin-left: 1vw;
     margin-top: 1vw;
