@@ -20,10 +20,14 @@ function submitForm() {
     var name = document.getElementById("name").value;
     var emailid = document.getElementById("email").value;
     var msgContent = document.getElementById("msg").value;
-    console.log(name,emailid,msgContent);
-    window.alert("Message sent successfully");
+    var company = document.getElementById("company").value;
+    var title = document.getElementById("title").value;
+    var phone = document.getElementById("phone").value;
 
-    saveMessages(name, emailid, msgContent);
+    console.log(name,emailid,msgContent);
+    window.alert("Thank you for your interest in OrbVoice. We'll respond to your inquiry soon.");
+
+    saveMessages(name, emailid, msgContent, company, title, phone);
   //   reset the form
     // document.getElementById("contactForm").reset();
 }
@@ -35,5 +39,8 @@ const saveMessages = (name, emailid, msgContent) => {
         name: name,
         emailid: emailid,
         msgContent: msgContent,
+        phone: phone,
+        title:title,
+        company: company,
     });
 };
