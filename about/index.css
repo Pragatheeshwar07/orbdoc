@@ -202,3 +202,14 @@ footer {
     font-weight: 300;
     font-size: 14px;
 }
+
+.custom-list {
+    list-style-type: none; /* Removes default bullet points */
+    padding-left: 0; /* Removes default padding */
+    margin-left: 100px; /* Places the list right under the paragraph*/
+}
+
+.custom-list li {
+    font-family: "Lato", sans-serif; /* Specify the desired font family for the lisst */
+    font-size: 20px; /* Set font size */
+}
