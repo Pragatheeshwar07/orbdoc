@@ -1,0 +1,121 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #0b0f19;
+    color: white;
+    padding: 20px 50px;
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navItem{
+    display: flex;
+    .menuItem1{
+        margin-right: 50px;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        font-size: 15px;
+        text-align: right;
+    }
+}
+
+.contact{
+    display: flex;
+    height: 87.52vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(112deg, rgba(255,255,255,1) 0%, rgba(3,12,22,1) 0%, rgba(41,63,135,1) 62%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
+
+}
+
+.left-up{
+    width: 100%;
+    h1{
+        font-size: 48px;
+        margin-left: 5vw;
+        margin-top: 12.5vw;
+        color: white;
+    }
+    p{
+        margin-left: 5vw;
+        font-size: 20px;
+        color: white;
+        a{
+            color: rgb(149, 146, 146);
+        }
+    }
+}
+
+.left-down{
+    display: flex;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    gap: 2vw;
+}
+
+.left-down img:hover{
+    cursor: pointer;
+    scale: 1.2;
+}
+
+.right{
+    background-color: #3c3b9c2d;
+    box-shadow: 4px 1px 10px rgba(255, 255, 255, 0.488);
+    width: 30vw;
+    height: 30vw;
+    margin-left: 18vw;
+    margin-top: 7vw;
+    #lable{
+        font-size: 20px;
+        margin-left: 12vw;
+        color: white;
+    }
+    input{
+        margin-top: 0.3vw;
+        width: 80%;
+        margin-left: 2vw;
+        height: 2vw;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 18px;
+    }
+    textarea{
+        margin-top: 0.3vw;
+        width: 80%;
+        margin-left: 2vw;
+        height: 8vw;
+        border-radius: 10px;
+    }
+}
+
+.this-is-email{
+    margin-top: 3vw;
+}
+
+.this-is-message{
+    margin-top: 3vw;
+}
+form{
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+#sub-button{
+    margin-top: 1vw;
+    width: 8vw;
+    margin-left: 10vw;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}

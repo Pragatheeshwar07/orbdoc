@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" lang="en">
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+        <script src="index.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EJC19XF2Z6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-EJC19XF2Z6');
+        </script>
+    </head>
+    <body>
+        <nav id="nav">
+            <div class="navTop">
+                <div class="navItem">
+                    <img src="logo5.png" width="110" style="margin-top: -1vw;">
+                </div>
+                <div class="navItem" style="margin-right: 54vw;">
+                    <h3 class="menuItem1" onclick="window.location.href='../about/index.html'">About</h3>
+                    <h3 class="menuItem1" onclick="window.location.href='../product/index.html'">Products</h3>
+                    <h3 class="menuItem1"onclick="window.location.href='#'">Contact Us</h3>
+                    <h3 class="menuItem1">Docs</h3>
+                    <!--<h3 class="menuItem">EVALUATION CONFIRMATION</h3> -->
+                </div>
+            </div>
+        </nav>
+        <div class="contact">
+            <div class="left">
+                <div class="left-up">
+                    <h1>Contact Us</h1>
+                    <p>Need to get in touch with us? Either fill out the form with your inquiry or<br>find the <a href="pragatheeshwar@orbdoc.com">department mail</a> to contact us</p>
+                </div>
+                <div class="left-down">
+                    <div class="face">
+                        <img src="facebook.png" onclick="window.location.href= 'https://www.facebook.com/'; ">
+                    </div>
+                    <div class="insta">
+                        <img src="insta.png" onclick="window.location.href= 'https://www.instagram.com/';">
+                    </div>
+                    <div class="link">
+                        <img src="link.png" onclick="window.location.href= 'https://www.linkedin.com/';">
+                    </div>
+                    <div class="mail">
+                        <img src="mail.png" onclick="window.location.href= 'https://www.gmail.com';">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="right">
+                <form id="myForm">
+                    <div class="this-is-name">
+                        <label for="name" id="lable">Name</label><br>
+                        <input type="text" id="name" required><br>
+                    </div>
+                    <div class="this-is-email">
+                        <label for="email" id="lable">Email</label><br>
+                        <input type="email" id="email" required><br>
+                    </div>
+                    <div class="this-is-message">
+                        <label for="msg" id="lable">Message</label><br>
+                        <textarea id="msg" rows="5" cols="50"></textarea>
+                    </div>
+                    <div class="this-is-submit-button">
+                        <button id="sub-button" type="submit" onclick="submitForm()">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
