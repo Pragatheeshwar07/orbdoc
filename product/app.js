@@ -4,8 +4,8 @@ const menuItems = document.querySelectorAll(".menuItem");
 const products = [
   {
     id: 1,
-    title: "START PAGE",
-    price: "Doctors utilize this platform to record their observations regarding their patients by clicking the microphone icon, which is the initial step.",
+    title: "Clinical Notes Made Easy",
+    price: "OrbVoice understands complex medical terms, adjusting to your specialty and dictation style. Whether in primary care, surgery, psychiatry, or any medical field, OrbVoice ensures accuracy and efficiency. Record during patient encounters, review instantly, and seamlessly export notes to your EHR.",
     colors: [
       {
         code: "black",
@@ -15,8 +15,8 @@ const products = [
   },
   {
     id: 2,
-    title: "PATIENT INTAKE",
-    price: "The next step in the process is to speak out the patients vitals to the application by clicking the microphone icon.",
+    title: "Clinical Notes Made Easy",
+    price: "OrbVoice understands complex medical terms, adjusting to your specialty and dictation style. Whether in primary care, surgery, psychiatry, or any medical field, OrbVoice ensures accuracy and efficiency. Record during patient encounters, review instantly, and seamlessly export notes to your EHR.",
     colors: [
       {
         code: "lightgray",
@@ -26,8 +26,8 @@ const products = [
   },
   {
     id: 3,
-    title: "VITALS",
-    price: "The next step in the process is to speak out the patients vitals to the application by clicking the microphone icon.",
+    title: "Clinical Notes Made Easy",
+    price: "OrbVoice understands complex medical terms, adjusting to your specialty and dictation style. Whether in primary care, surgery, psychiatry, or any medical field, OrbVoice ensures accuracy and efficiency. Record during patient encounters, review instantly, and seamlessly export notes to your EHR.",
     colors: [
       {
         code: "lightgray",
@@ -37,8 +37,8 @@ const products = [
   },
   {
     id: 4,
-    title: "VITALS SUMMARY",
-    price: "The next step in the process is to speak out the patients vitals to the application by clicking the microphone icon.",
+    title: "Clinical Notes Made Easy",
+    price: "OrbVoice understands complex medical terms, adjusting to your specialty and dictation style. Whether in primary care, surgery, psychiatry, or any medical field, OrbVoice ensures accuracy and efficiency. Record during patient encounters, review instantly, and seamlessly export notes to your EHR.",
     colors: [
       {
         code: "black",
@@ -48,8 +48,8 @@ const products = [
   },
   {
     id: 5,
-    title: "EVALUATION CONFIRMATION",
-    price: "The next step in the process is to speak out the patients vitals to the application by clicking the microphone icon.",
+    title: "Clinical Notes Made Easy",
+    price: "OrbVoice understands complex medical terms, adjusting to your specialty and dictation style. Whether in primary care, surgery, psychiatry, or any medical field, OrbVoice ensures accuracy and efficiency. Record during patient encounters, review instantly, and seamlessly export notes to your EHR.",
     colors: [
       {
         code: "gray",
